@@ -1,0 +1,6 @@
+a2=(1,"riya",3,5,"hello")
+print(a2) 
+no=a2.count(3)
+print(no)
+i=a2.index(1)
+print(i)
