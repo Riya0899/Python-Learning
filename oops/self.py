@@ -6,7 +6,10 @@ class Employee:
    # self is automatically passed with a function call from an object
     def getinfo(self):
         print(f"language is {self.language} and salary is {self.salary}")
-    def greet(self):
+    
+    # if we dont want to pass  object in function
+    @staticmethod
+    def greet():
         print("good morning")
 
 obj=Employee()
